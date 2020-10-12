@@ -1,0 +1,24 @@
+.fd-tools .aty-poptip-inner{
+  background: transparent;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.fd-tools .aty-poptip-popper[x-placement=bottom-end] .aty-poptip-arrow{
+  display: none;
+}
+.fd-tools .poptipCss{
+  border-radius:6px;
+  width: 678px;
+  height: 700px;
+  overflow: hidden;
+}
+.fd-assistant {
+  width: 36px;
+  float: left;
+  margin-top: 17px;
+  cursor: pointer;
+}
+.fd-assistant .aty-poptip-body {
+  padding:0px;
+}

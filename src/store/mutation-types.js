@@ -1,0 +1,6 @@
+export const UPDATE_KHNY = 'UPDATE_KHNY';
+export const UPDATE_DEPT = 'UPDATE_DEPT';
+export const UPDATE_CORP = 'UPDATE_CORP';
+export const UPDATE_REJECT = 'UPDATE_REJECT';
+export const UPDATE_PROCESSSTATE = 'UPDATE_PROCESSSTATE';
+export const UPDATE_OVER = 'UPDATE_OVER';

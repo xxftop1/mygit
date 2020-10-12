@@ -1,0 +1,486 @@
+.fd-py-table .aty-table__empty-block,
+.fd-wc-table .aty-table__empty-block,
+.fd-yhz-table .aty-table__empty-block,
+.fd-edu-table .aty-table__empty-block,
+.fd-summary-table .aty-table__empty-block,
+.fd-py-table .aty-table--group .aty-table__header,
+.fd-wc-table .aty-table--group .aty-table__header,
+.fd-yhz-table .aty-table--group .aty-table__header,
+.fd-edu-table .aty-table--group .aty-table__header,
+.fd-summary-table .aty-table--group .aty-table__header,
+.fd-py-table .aty-table__body,
+.fd-wc-table .aty-table__body,
+.fd-edu-table .aty-table__body,
+.fd-yhz-table .aty-table__body,
+.fd-summary-table .aty-table__body{
+    width:auto !important;
+}
+.fd-summary-table .aty-table tr td .cell{
+  font-size:13px;
+} 
+.fd-summary-table .aty-table .cell{
+  padding:7px 0;
+  margin:0;
+}
+.fd-summary-table .aty-table--border{
+  border:none;
+}
+.fd-edu-table  th.jyw0 .cell,
+.fd-edu-table .aty-table tr td.jyw0 .cell{
+    width:50px !important;
+    min-width: 0 !important;
+} 
+.fd-edu-table .aty-table .cell，
+.fd-py-table .aty-table .cell,
+.fd-yhz-table .aty-table .cell,
+.fd-wc-table .aty-table .cell{
+    min-width:0 !important;
+}
+.fd-py-table .aty-table--border th:first-child .cell,
+.fd-py-table .aty-table--border td:first-child .cell,
+.fd-yhz-table .aty-table--border th:first-child .cell,
+.fd-yhz-table .aty-table--border td:first-child .cell,
+.fd-wc-table .aty-table--border th:first-child .cell,
+.fd-wc-table .aty-table--border td:first-child .cell{
+   padding-left:2px;
+}
+@media all and (min-width:1601px){
+    .fd-summary-table th.w0 .cell,
+    .fd-summary-table .aty-table tr td.w0 .cell{
+        width: 120px !important;
+        min-width: 0 !important;
+    }
+    .fd-summary-table th.w0 .cell,
+    .fd-summary-table .aty-table tr td.w0 .cell{
+        width: 120px !important;
+        min-width: 0 !important;
+    }
+    .fd-summary-table th.w1 .cell,
+    .fd-summary-table .aty-table tr td.w1 .cell{
+        width: 55px !important;
+        min-width: 0 !important;
+    }
+    .fd-summary-table th.w2 .cell,
+    .fd-summary-table .aty-table tr td.w2 .cell{
+        width:60px !important;
+        min-width: 0 !important;
+    }
+    .fd-summary-table th.w3 .cell,
+    .fd-summary-table .aty-table tr td.w3 .cell{
+        width:70px !important;
+        min-width: 0 !important;
+    }
+    .fd-edu-table  th.jyw1 .cell,
+    .fd-edu-table .aty-table tr td.jyw1 .cell{
+        width:180px !important;
+    } 
+    .fd-edu-table  th.jyw2 .cell,
+    .fd-edu-table .aty-table tr td.jyw2 .cell{
+        width:78px !important;
+    } 
+    .fd-wc-table  th.wcw0 .cell,
+    .fd-wc-table .aty-table tr td.wcw0 .cell{
+        width:50px !important;
+    }
+    .fd-wc-table  th.wcw1 .cell,
+    .fd-wc-table .aty-table tr td.wcw1 .cell{
+        width:90px !important;
+    }  
+    .fd-wc-table  th.wcw2 .cell,
+    .fd-wc-table .aty-table tr td.wcw2 .cell{
+        width:146px !important;
+    }  
+    .fd-wc-table  th.wcw3 .cell,
+    .fd-wc-table .aty-table tr td.wcw3 .cell{
+        width:100px !important;
+    }  
+    .fd-wc-table  th.wcw4 .cell,
+    .fd-wc-table .aty-table tr td.wcw4 .cell{
+        width:80px !important;
+    }  
+    .fd-wc-table  th.wcw5 .cell,
+    .fd-wc-table .aty-table tr td.wcw5 .cell{
+        width:120px !important;
+    }  
+    .fd-wc-table  th.wcw6 .cell,
+    .fd-wc-table .aty-table tr td.wcw6 .cell{
+        width:130px !important;
+    } 
+    .fd-wc-table  th.wcw7 .cell,
+    .fd-wc-table .aty-table tr td.wcw7 .cell{
+        width:160px !important;
+    } 
+    .fd-yhz-table  th.yhzw0 .cell,
+    .fd-yhz-table .aty-table tr td.yhzw0 .cell{
+        width:50px !important;
+    }
+    .fd-yhz-table  th.yhzw1 .cell,
+    .fd-yhz-table .aty-table tr td.yhzw1 .cell{
+        width:100px !important;
+    }
+    .fd-yhz-table  th.yhzw2 .cell,
+    .fd-yhz-table .aty-table tr td.yhzw2 .cell{
+        width:200px !important;
+    }
+    .fd-yhz-table  th.yhzw3 .cell,
+    .fd-yhz-table .aty-table tr td.yhzw3 .cell{
+        width:120px !important;
+    }
+    .fd-yhz-table  th.yhzw4 .cell,
+    .fd-yhz-table .aty-table tr td.yhzw4 .cell{
+        width:85px !important;
+    }
+    .fd-yhz-table  th.yhzw5 .cell,
+    .fd-yhz-table .aty-table tr td.yhzw5 .cell{
+        width:120px !important;
+    }
+    .fd-yhz-table  th.yhzw6 .cell,
+    .fd-yhz-table .aty-table tr td.yhzw6 .cell{
+        width:100px !important;
+    }
+    .fd-py-table  th.pyw0 .cell,
+    .fd-py-table .aty-table tr td.pyw0 .cell{
+        width:50px !important;
+    }
+    .fd-py-table  th.pyw1 .cell,
+    .fd-py-table .aty-table tr td.pyw1 .cell{
+        width:100px !important;
+    }
+    .fd-py-table  th.pyw2 .cell,
+    .fd-py-table .aty-table tr td.pyw2 .cell{
+        width:160px !important;
+    }
+    .fd-py-table  th.pyw3 .cell,
+    .fd-py-table .aty-table tr td.pyw3 .cell{
+        width:120px !important;
+    }
+    .fd-py-table  th.pyw4 .cell,
+    .fd-py-table .aty-table tr td.pyw4 .cell{
+        width:80px !important;
+    }
+    .fd-py-table  th.pyw5 .cell,
+    .fd-py-table .aty-table tr td.pyw5 .cell{
+        width:100px !important;
+    }
+    .fd-py-table  th.pyw6 .cell,
+    .fd-py-table .aty-table tr td.pyw6 .cell{
+        width:70px !important;
+    }
+    .fd-py-table  th.pyw7 .cell,
+    .fd-py-table .aty-table tr td.pyw7 .cell{
+        width:84px !important;
+    }
+}
+@media all and (max-width: 1600px){
+        .jf_head .jf_nav > .jf_nav_box > li{
+           padding:0 15px;
+        }
+        .fd-summary-table th.w0 .cell,
+        .fd-summary-table .aty-table tr td.w0 .cell{
+            width: 100px !important;
+            min-width: 0 !important;
+        }
+        .fd-summary-table th.w1 .cell,
+        .fd-summary-table .aty-table tr td.w1 .cell{
+            width: 40px !important;
+            min-width: 0 !important;
+        }
+        .fd-summary-table th.w2 .cell,
+        .fd-summary-table .aty-table tr td.w2 .cell{
+            width:48px !important;
+            min-width: 0 !important;
+        }
+        .fd-summary-table th.w3 .cell,
+        .fd-summary-table .aty-table tr td.w3 .cell{
+            width:50px !important;
+            min-width: 0 !important;
+        }
+        .fd-edu-table  th.jyw1 .cell,
+        .fd-edu-table .aty-table tr td.jyw1 .cell{
+            width:120px !important;
+            min-width: 0 !important;
+        } 
+        .fd-edu-table  th.jyw2 .cell,
+        .fd-edu-table .aty-table tr td.jyw2 .cell{
+            width:50px !important;
+            min-width: 0 !important;
+        } 
+        .fd-yhz-table  th.yhzw0 .cell,
+        .fd-yhz-table .aty-table tr td.yhzw0 .cell{
+            width:50px !important;
+        }
+        .fd-yhz-table  th.yhzw1 .cell,
+        .fd-yhz-table .aty-table tr td.yhzw1 .cell{
+            width:90px !important;
+        }
+        .fd-yhz-table  th.yhzw2 .cell,
+        .fd-yhz-table .aty-table tr td.yhzw2 .cell{
+            width:150px !important;
+        }
+        .fd-yhz-table  th.yhzw3 .cell,
+        .fd-yhz-table .aty-table tr td.yhzw3 .cell{
+            width:120px !important;
+        }
+        .fd-yhz-table  th.yhzw4 .cell,
+        .fd-yhz-table .aty-table tr td.yhzw4 .cell{
+            width:70px !important;
+        }
+        .fd-yhz-table  th.yhzw5 .cell,
+        .fd-yhz-table .aty-table tr td.yhzw5 .cell{
+            width:90px !important;
+        }
+        .fd-yhz-table  th.yhzw6 .cell,
+        .fd-yhz-table .aty-table tr td.yhzw6 .cell{
+            width:90px !important;
+        }
+        .fd-wc-table  th.wcw0 .cell,
+        .fd-wc-table .aty-table tr td.wcw0 .cell{
+            width:45px !important;
+        }
+        .fd-wc-table  th.wcw1 .cell,
+        .fd-wc-table .aty-table tr td.wcw1 .cell{
+            width:72px !important;
+        }  
+        .fd-wc-table  th.wcw2 .cell,
+        .fd-wc-table .aty-table tr td.wcw2 .cell{
+            width:121px !important;
+        }  
+        .fd-wc-table  th.wcw3 .cell,
+        .fd-wc-table .aty-table tr td.wcw3 .cell{
+            width:85px !important;
+        }  
+        .fd-wc-table  th.wcw4 .cell,
+        .fd-wc-table .aty-table tr td.wcw4 .cell{
+            width:65px !important;
+        }  
+        .fd-wc-table  th.wcw5 .cell,
+        .fd-wc-table .aty-table tr td.wcw5 .cell{
+            width:100px !important;
+        }  
+        .fd-wc-table  th.wcw6 .cell,
+        .fd-wc-table .aty-table tr td.wcw6 .cell{
+            width:110px !important;
+        } 
+        .fd-wc-table  th.wcw7 .cell,
+        .fd-wc-table .aty-table tr td.wcw7 .cell{
+            width:120px !important;
+        }
+        .fd-py-table  th.pyw0 .cell,
+        .fd-py-table .aty-table tr td.pyw0 .cell{
+            width:50px !important;
+        }
+        .fd-py-table  th.pyw1 .cell,
+        .fd-py-table .aty-table tr td.pyw1 .cell{
+            width:90px !important;
+        }
+        .fd-py-table  th.pyw2 .cell,
+        .fd-py-table .aty-table tr td.pyw2 .cell{
+            width:130px !important;
+        }
+        .fd-py-table  th.pyw3 .cell,
+        .fd-py-table .aty-table tr td.pyw3 .cell{
+            width:100px !important;
+        }
+        .fd-py-table  th.pyw4 .cell,
+        .fd-py-table .aty-table tr td.pyw4 .cell{
+            width:65px !important;
+        }
+        .fd-py-table  th.pyw5 .cell,
+        .fd-py-table .aty-table tr td.pyw5 .cell{
+            width:75px !important;
+        }
+        .fd-py-table  th.pyw6 .cell,
+        .fd-py-table .aty-table tr td.pyw6 .cell{
+            width:65px !important;
+        }
+        .fd-py-table  th.pyw7 .cell,
+        .fd-py-table .aty-table tr td.pyw7 .cell{
+            width:80px !important;
+        } 
+}
+@media all and (max-width: 1440px){
+    .jf_head .jf_nav > .jf_nav_box > li{
+        padding:0 19px;
+    }
+    .fd-yhz-table  th.yhzw0 .cell,
+    .fd-yhz-table .aty-table tr td.yhzw0 .cell{
+        width:40px !important;
+        min-width: 0 !important;
+    }
+    .fd-yhz-table  th.yhzw1 .cell,
+    .fd-yhz-table .aty-table tr td.yhzw1 .cell{
+        width:100px !important;
+        min-width: 0 !important;
+    }
+    .fd-yhz-table  th.yhzw2 .cell,
+    .fd-yhz-table .aty-table tr td.yhzw2 .cell{
+        width:160px !important;
+        min-width: 0 !important;
+    }
+    .fd-yhz-table  th.yhzw3 .cell,
+    .fd-yhz-table .aty-table tr td.yhzw3 .cell{
+        width:55px !important;
+        min-width: 0 !important;
+    }
+    .fd-yhz-table  th.yhzw4 .cell,
+    .fd-yhz-table .aty-table tr td.yhzw4 .cell{
+        width:70px !important;
+        min-width: 0 !important;
+    }
+    .fd-map-breadcrumb .fd-right-part{
+        margin-left:12px !important;
+    }
+    .fd-py-table .aty-table tr td .cell,
+    .fd-wc-table .aty-table tr td .cell{
+       font-size:13px;
+    }
+    .fd-wc-table  th.wcw1 .cell,
+    .fd-wc-table .aty-table tr td.wcw1 .cell{
+        width:72px !important;
+    }  
+    .fd-wc-table  th.wcw2 .cell,
+    .fd-wc-table .aty-table tr td.wcw2 .cell{
+        width:121px !important;
+    }  
+    .fd-wc-table  th.wcw3 .cell,
+    .fd-wc-table .aty-table tr td.wcw3 .cell{
+        width:80px !important;
+    }  
+    .fd-wc-table  th.wcw4 .cell,
+    .fd-wc-table .aty-table tr td.wcw4 .cell{
+        width:55px !important;
+    }  
+    .fd-wc-table  th.wcw5 .cell,
+    .fd-wc-table .aty-table tr td.wcw5 .cell{
+        width:100px !important;
+    }  
+    .fd-wc-table  th.wcw6 .cell,
+    .fd-wc-table .aty-table tr td.wcw6 .cell{
+        width:100px !important;
+    } 
+    .fd-wc-table  th.wcw7 .cell,
+    .fd-wc-table .aty-table tr td.wcw7 .cell{
+        width:100px !important;
+    } 
+    .fd-yhz-table  th.yhzw0 .cell,
+    .fd-yhz-table .aty-table tr td.yhzw0 .cell{
+        width:50px !important;
+    }
+    .fd-yhz-table  th.yhzw1 .cell,
+    .fd-yhz-table .aty-table tr td.yhzw1 .cell{
+        width:90px !important;
+    }
+    .fd-yhz-table  th.yhzw2 .cell,
+    .fd-yhz-table .aty-table tr td.yhzw2 .cell{
+        width:120px !important;
+    }
+    .fd-yhz-table  th.yhzw3 .cell,
+    .fd-yhz-table .aty-table tr td.yhzw3 .cell{
+        width:90px !important;
+    }
+    .fd-yhz-table  th.yhzw4 .cell,
+    .fd-yhz-table .aty-table tr td.yhzw4 .cell{
+        width:62px !important;
+    }
+    .fd-yhz-table  th.yhzw5 .cell,
+    .fd-yhz-table .aty-table tr td.yhzw5 .cell{
+        width:90px !important;
+    }
+    .fd-yhz-table  th.yhzw6 .cell,
+    .fd-yhz-table .aty-table tr td.yhzw6 .cell{
+        width:90px !important;
+    }
+    .fd-py-table  th.pyw0 .cell,
+    .fd-py-table .aty-table tr td.pyw0 .cell{
+        width:48px !important;
+    }
+    .fd-py-table  th.pyw1 .cell,
+    .fd-py-table .aty-table tr td.pyw1 .cell{
+        width:85px !important;
+    }
+    .fd-py-table  th.pyw2 .cell,
+    .fd-py-table .aty-table tr td.pyw2 .cell{
+        width:110px !important;
+    }
+    .fd-py-table  th.pyw3 .cell,
+    .fd-py-table .aty-table tr td.pyw3 .cell{
+        width:95px !important;
+    }
+    .fd-py-table  th.pyw4 .cell,
+    .fd-py-table .aty-table tr td.pyw4 .cell{
+        width:58px !important;
+    }
+    .fd-py-table  th.pyw5 .cell,
+    .fd-py-table .aty-table tr td.pyw5 .cell{
+        width:60px !important;
+    }
+    .fd-py-table  th.pyw6 .cell,
+    .fd-py-table .aty-table tr td.pyw6 .cell{
+        width:65px !important;
+    }
+    .fd-py-table  th.pyw7 .cell,
+    .fd-py-table .aty-table tr td.pyw7 .cell{
+        width:70px !important;
+    } 
+}
+@media all and (max-width: 1366px){
+    .jf_head .jf_nav > .jf_nav_box > li{
+        padding:0 12px;
+    }
+    .fd-py-table  th.pyw0 .cell,
+    .fd-py-table .aty-table tr td.pyw0 .cell{
+        width:48px !important;
+    }
+    .fd-py-table  th.pyw1 .cell,
+    .fd-py-table .aty-table tr td.pyw1 .cell{
+        width:70px !important;
+    }
+    .fd-py-table  th.pyw2 .cell,
+    .fd-py-table .aty-table tr td.pyw2 .cell{
+        width:100px !important;
+    }
+    .fd-py-table  th.pyw3 .cell,
+    .fd-py-table .aty-table tr td.pyw3 .cell{
+        width:90px !important;
+    }
+    .fd-py-table  th.pyw4 .cell,
+    .fd-py-table .aty-table tr td.pyw4 .cell{
+        width:56px !important;
+    }
+    .fd-py-table  th.pyw5 .cell,
+    .fd-py-table .aty-table tr td.pyw5 .cell{
+        width:60px !important;
+    }
+    .fd-py-table  th.pyw6 .cell,
+    .fd-py-table .aty-table tr td.pyw6 .cell{
+        width:60px !important;
+    }
+    .fd-py-table  th.pyw7 .cell,
+    .fd-py-table .aty-table tr td.pyw7 .cell{
+        width:55px !important;
+    } 
+    .fd-yhz-table  th.yhzw1 .cell,
+    .fd-yhz-table .aty-table tr td.yhzw1 .cell{
+        width:80px !important;
+    }
+    .fd-yhz-table  th.yhzw2 .cell,
+    .fd-yhz-table .aty-table tr td.yhzw2 .cell{
+        width:120px !important;
+    }
+    .fd-yhz-table  th.yhzw3 .cell,
+    .fd-yhz-table .aty-table tr td.yhzw3 .cell{
+        width:90px !important;
+    }
+    .fd-yhz-table  th.yhzw4 .cell,
+    .fd-yhz-table .aty-table tr td.yhzw4 .cell{
+        width:60px !important;
+    }
+    .fd-yhz-table  th.yhzw5 .cell,
+    .fd-yhz-table .aty-table tr td.yhzw5 .cell{
+        width:70px !important;
+    }
+    .fd-yhz-table  th.yhzw6 .cell,
+    .fd-yhz-table .aty-table tr td.yhzw6 .cell{
+        width:70px !important;
+    }
+}

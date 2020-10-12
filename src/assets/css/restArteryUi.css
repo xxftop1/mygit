@@ -1,0 +1,743 @@
+/* table样式 */
+.aty-table{
+  overflow: visible;
+}
+.aty-table__body-wrapper{
+  overflow: visible;
+}
+.fd-zfxxwh-modal .aty-modal-body,
+.fd-bj-zfxmTable .aty-modal-body{
+  padding:0;
+}
+.rl_pop_box .aty-modal-body{
+  padding:0;
+}
+.pop_main_box{
+  padding:20px;
+}
+.aty-table tr:nth-child(even){
+  background-color: #eef4f9;
+}
+.aty-table tr th{
+  background-color: #eef4f9;
+  border-top: 1px solid #dce0e8;
+  border-bottom: 1px solid #188aff !important;
+  text-align: center;
+}
+.aty-table--group.aty-table thead tr th{
+  border-bottom: none !important;
+  border-collapse: collapse;
+}
+.aty-table--group.aty-table .aty-table__header-wrapper{
+  border-bottom: 1px solid #188aff !important;
+}
+.aty-table--group.aty-table thead{
+  /* border-bottom: 1px solid #188aff !important; */
+  border-collapse: collapse;
+}
+.aty-table--group .aty-table__header{
+  border-collapse: collapse;
+}
+.aty-table--group.aty-table thead.is-group th{
+  background-color: #eef4f9;
+}
+.aty-table tr td{
+  text-align: center;
+  padding: 1px 0;
+}
+.aty-table tr td .cell{
+  margin-top: 7px;
+}
+.es_table tr td .cell{
+  padding: 0px !important;
+}
+.aty-table td, .aty-table th.is-leaf{
+  border-bottom: 1px solid #dce0e8;
+}
+.aty-checkbox+span, .aty-checkbox-wrapper+span{
+  margin-right: 0px;
+}
+/* 无劳动定额犯罪 页面table重构 */
+.drw_table .aty-table .cell.aty-tooltip{
+  min-width: 31px;
+}
+.drw_table .aty-table .cell{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.drw_table .aty-table--border th:first-child .cell{
+  padding-left: 0px;
+}
+.drw_table .aty-select-arrow{
+  right: 0px;
+}
+.drw_table .aty-select-item{
+  padding: 7px 10px;
+}
+.drw_table  .aty-select-arrow{
+  font-size:12px;
+}
+.drw_table .aty-select{
+  text-align:center;
+}
+/* tabs样式 */
+.aty-tabs-nav .aty-tabs-tab{
+  color: #99a8bb;
+}
+.aty-tabs-nav .aty-tabs-tab span:hover{
+  color: #39f;
+}
+.aty-tabs-nav .aty-tabs-tab-active{
+  color: #333;
+}
+.aty-tabs-nav .aty-tabs-tab span{
+  /* float: left; */
+  vertical-align: middle;
+}
+.aty-tabs.aty-tabs-card>.aty-tabs-bar .aty-tabs-tab>div{
+  height:36px;
+  line-height:36px;
+}
+.aty-tabs-nav .aty-tabs-tab .tabs_topb{
+  /* margin-top: 10px;
+  margin-left: 22px; */
+  margin-right: 3px;
+}
+.aty-tabs.aty-tabs-card>.aty-tabs-bar .aty-tabs-tab{
+  margin: 0px;
+  padding: 0px;
+  width: 119px;
+  height: 38px;
+  text-align: center;
+  line-height: 38px;
+  background-color: #e2e8ef;
+}
+.aty-tabs.aty-tabs-card>.aty-tabs-bar .aty-tabs-tab{
+  border-color: #dbe4ed;
+  border-bottom: 1px solid #dbe4ed;
+}
+.aty-tabs.aty-tabs-card>.aty-tabs-bar .aty-tabs-tab:hover{
+  /* color: #f00; */
+}
+.aty-tabs.aty-tabs-card>.aty-tabs-bar .aty-tabs-tab-active{
+  background-color: #fff;
+  color: #333;
+}
+
+/* 日期选择 样式 */
+.aty-icon-ios-calendar-outline:before{
+  content: none;
+}
+/*.aty-date-picker .aty-icon-ios-close,*/
+/*.aty-date-picker .aty-icon-ios-calendar-outline{*/
+  /*background: url(../../assets/images/w-png13.png) no-repeat 6.5px 6.5px;*/
+/*}*/
+.dr_date_pick.aty-date-picker .aty-input{
+  background: url(../../assets/images/w-png13.png) 99% center no-repeat;
+}
+.dr_date_pick.aty-date-picker .aty-icon-ios-close{
+  right:32px;
+  width:20px;
+  cursor: pointer;
+  display: inline-block;
+  background: #fff;
+  height:28px;
+  top:2px;
+  line-height: 28px;
+}
+/* 下拉选框 */
+.aty-select-single .aty-select-selection .aty-select-placeholder, .aty-select-single .aty-select-selection .aty-select-selected-value{
+  line-height: 34px;
+  height: 32px;
+}
+.npl_table .aty-select-single .aty-select-selection{
+  height: 30px;
+  line-height: 30px;
+}
+.npl_table .aty-select-single .aty-select-selection .aty-select-placeholder{
+  height: 30px;
+  line-height: 30px;
+}
+.aty-select-single .aty-select-selection{
+  height: 34px;
+}
+.npl_table .aty-select-single .aty-select-selection .aty-select-placeholder, .aty-select-single .aty-select-selection .aty-select-selected-value{
+  height: 30px;
+  line-height: 30px;
+}
+.npl_table .aty-table tr td .cell{
+  overflow: visible;
+}
+/* 分页样式 */
+.pagination4 .fd-category {
+  margin:0 20px;
+}
+/* .pagination4 .fd-category &gt; .aty-row {
+  margin: 10px 0;
+} */
+.pagination4 .fd-simple .aty-pagination {
+  margin-bottom: 5px;
+}
+.aty-row{
+  margin-top: 15px;
+  text-align: right;
+}
+/* 下拉框样式修改 */
+.aty-select{
+  position: static;
+}
+.search_option_input_drw .aty-select-placeholder{
+  display: none !important;
+}
+/* 奖励页面弹出框样式重置 */
+.rl_pop_box .aty-modal-footer{
+  display: none;
+}
+/* .rl_pop_box .aty-modal-body{
+  padding: 0px;
+} */
+.jl-Modal .aty-modal-body{
+  padding: 0px;
+}
+.rl_pop_box .aty-icon-ios-close-empty{
+  font-size: 38px;
+  color: #fff !important;
+}
+.rl_pop_box .aty-icon-ios-close-empty:hover{
+  color: #fff;
+}
+
+/* 打印预览弹出框样式重置 */
+.drs_dayin_pop .aty-modal-footer{
+  display: none;
+}
+.drs_dayin_pop .aty-modal-body{
+  padding: 0px;
+}
+.drs_dayin_pop .aty-icon{
+  font-size: 38px;
+  color: #fff;
+}
+.drs_dayin_pop .aty-icon:hover{
+  color: #fff;
+}
+.drs_dayin_pop .aty-modal-body{
+  padding-bottom: 20px;
+}
+.table3-for-single .has-gutter .aty-checkbox-wrapper {
+  display: none;
+}
+/* 犯罪信息维护 样式重置 */
+.ci_form .ci_pop_width .aty-form-item-content{
+  width: 104%;
+}
+.ci_form .ci_pop_width .aty-date-picker{
+  width: 100%;
+}
+.ci_form .aty-col{
+  width: 40%;
+}
+.ci_form .aty-select-item{
+  padding: 7px 10px;
+}
+.ci_text_left .aty-form-item-content{
+  text-align: left;
+}
+
+.required  .aty-form-item-required{
+  width:calc(100% - 190px);
+  position:absolute;
+  top:0;
+  left:158px;
+  right:0;
+}
+.required  .aty-date-picker{
+  width:100%;
+}
+.required .aty-select-dropdown{
+  width:100%;
+  left:0 !important;
+}
+.score-input .aty-form-item-content{
+  position:absolute;
+  left:58px;
+  right:20px;
+}
+.score-input  .aty-form-item-label{
+  padding:0;
+  line-height:35px;
+}
+.fd-upload .aty-upload-list{
+  /* margin-top:20px; */
+  margin:0;
+}
+.fd-upload .aty-upload-list-file{
+  width:86px;
+  height:116px;
+  float:left;
+  margin-right:52px;
+  position:relative;
+  padding:0;
+  background:#e7eef5;
+  overflow:visible;
+}
+.fd-upload .aty-upload-list-file>span{
+  display:block;
+  height:40px;
+  padding:1px;
+  border-radius:3px;
+  position:absolute;
+  top:114px;
+  width:100%;
+  text-align:center;
+  font-size:12px;
+  color:#333;
+}
+.fd-upload .aty-upload-list-file>span i{
+  width:100%;
+  height:116px;
+  position:absolute;
+  top:-114px;
+  left:0;
+}
+.fd-upload  .aty-icon-image:before{
+  content:''
+}
+/* 条款维护 下拉树样式 */
+.tkwh_tree .aty-select-dropdown{
+  display: block !important;
+  top: 0px !important;
+  left: 0px !important;
+  background-color: #f6f8fb;
+  box-shadow: 0 0 0;
+  z-index:1;
+}
+.tkwh_tree .aty-select-tree-selection{
+  display: none !important;
+}
+.tkwh_tree .aty-tree{
+  background-color: #f6f8fb;
+}
+
+/* .fd-tkwh-tree.tkwh_tree{
+  height: calc(100% - 50px);
+} */
+.aty-clause-tree{
+  height: calc(100% - 50px);
+}
+.fd-tkwh-tree .aty-form-item-content{
+  height:100%;
+}
+.tkwh_tree.fd-tkwh-tree .aty-select-dropdown{
+  display: block !important;
+  max-height:none;
+}
+.fd-tkwh-tree .aty-form-item-content{
+  margin-left:0 !important;
+}
+
+.npl_seleted .aty-select-dropdown{
+  overflow: auto !important;
+  max-height: 300px !important;
+}
+.aty-breadcrumb a:hover{
+  color: #fff;
+}
+.aty-breadcrumb a{
+  font-size: 14px;
+  color: #fff;
+  font-weight:normal;
+}
+.fd-upload .aty-upload-select{
+  width:130px;
+  height:30px;
+}
+.more_select_delete .aty-icon-ios-close-empty{
+  color: #666 !important;
+}
+.required .score-input .aty-form-item-label:before{
+ content:'*';
+ color:red;
+ font-size:14px;
+ vertical-align:middle;
+}
+.fd-bj-row .aty-form-item-content{
+  text-align:left;
+  margin-left:0 !important;
+}
+.fd-table-jail .aty-table .caret-wrapper{
+  right:0;
+  left:44px;
+  margin:auto;
+}
+.fd-bj-form .aty-form-item-content{
+  margin-left:0 !important;
+}
+.fd-add-flow.aty-row{
+  margin-top:0;
+}
+.window-splc .aty-modal-body{
+  padding: 0px;
+}
+.fd-bj-table .aty-table tr td .cell,
+.fd-addpoint-table .aty-table tr td .cell{
+  margin-bottom:7px;
+}
+.fd-bj-table .aty-table tr td.yearMonth .cell{
+  display: inline-block;
+  vertical-align: middle;
+}
+.aty-modal-header{
+  background:#188aff;
+  border-radius: 6px 6px 0 0;
+}
+.aty-modal-header .aty-modal-header-inner{
+  color:#fff;
+  font-size:16px;
+}
+.aty-modal-close .aty-icon-ios-close-empty,
+.aty-modal-close{
+  color:#fff;
+}
+.aty-modal-content{
+  border:1px solid #188aff;
+  box-shadow:0 2px 3px rgba(0,0,0,.12);
+  -webkit-box-shadow:0 2px 3px rgba(0,0,0,.12);
+  -moz-box-shadow:0 2px 3px rgba(0,0,0,.12);
+}
+.fd-khyj-select  .aty-select-dropdown-list{
+  float:left;
+  max-height:300px;
+}
+.fd-bj-modal .aty-modal-footer{
+  text-align:center;
+  border:none;
+  overflow:hidden;
+  display: table;
+  margin: auto;
+}
+.fd-bj-modal .aty-modal-footer .aty-btn-text{
+  border:1px solid #0279f3;
+  color:#0279f3;
+}
+.fd-bj-modal .aty-modal-body{
+  font-size:14px;
+  color:#333;
+  text-align:center;
+  padding:20px 0;
+}
+.fd-bj-modal .aty-modal-footer{
+  padding:10px 0 20px;
+}
+.fd-bj-modal .aty-modal-close .aty-icon-ios-close-empty{
+  color:#fff;
+}
+.fd-bj-modal .aty-modal-footer .aty-btn{
+  height:32px;
+  line-height:30px;
+  padding-top:0;
+  padding-bottom:0;
+  float:right;
+  margin:0 8px;
+}
+.fd-rjz-search .aty-input-group-append{
+  width:40px;
+  background:#ffffff  url(../../assets/images/search.png) no-repeat center;
+  border-right:1px solid #e3e5f1;
+  border-top:1px solid #e3e5f1;
+  border-bottom:1px solid #e3e5f1;
+  border-radius:0 30px 30px 0;
+}
+.fd-rjz-search .aty-icon-ios-search:before{
+  content:""
+}
+.fd-rjz-search .aty-input{
+  border-left:1px solid #e3e5f1;
+  border-top:1px solid #e3e5f1;
+  border-bottom:1px solid #e3e5f1;
+  border-right:none;
+  border-radius:30px 0 0 30px;
+  padding-left:18px;
+  outline: none;
+  padding-right:0;
+}
+.fd-rjz-search .aty-btn:focus,
+.fd-rjz-search  .aty-input:focus{
+  box-shadow:none;
+  -webkit-box-shadow: none;
+}
+.aty-tree .aty-tree-node-hd:focus,
+.aty-tree .aty-tree-node-hd:hover,
+.aty-select-item-focus,
+.aty-select-item:hover{
+  background:#ebf4fe;
+  color:#0075ee;
+}
+.btm-btns .aty-btn-success.focus,
+.btm-btns .aty-btn-success:active,
+.btm-btns .aty-btn-success{
+  background:#48a2ff;
+  border: 1px solid #48a2ff;
+}
+/* .aty-checkboxtable.aty-table th:first-child .cell,
+.aty-checkboxtable.aty-table tbody tr:first-child .cell{
+  text-overflow: clip;
+} */
+.aty-table-column--selection .cell{
+  padding-left:0;
+  padding-right:0;
+}
+/* 修改默认 */
+.aty-date-picker{
+  width:100%;
+}
+.aty-date-picker .aty-icon-ios-close:before{
+  position: absolute;
+  left:0px;
+  display:inline-block;
+  width:20px;
+  height:100%;
+}
+.aty-icon-ios-close:before{
+  content:url("../../assets/images/clear.png");
+
+}
+.fd-xzzf-modal .aty-table,
+.fd-bj-zfxmTable .aty-table{
+  overflow: hidden;
+}
+.fd-jl-modal .aty-table .aty-table__body-wrapper,
+.fd-xzzf-modal .aty-table .aty-table__body-wrapper,
+.fd-bj-zfxmTable .aty-table .aty-table__body-wrapper{
+  overflow-x: hidden;
+  overflow-y: auto;
+  max-height: 319px !important;
+}
+.fd-jl-modal .fd-hyjl-table .aty-table .aty-table__body-wrapper{
+  height: auto !important;
+  max-height: none !important;
+}
+.fd-hyjl-table .aty-table::before{
+  background:transparent;
+}
+html,body, #app { width: 100%; height: 100%;} body { overflow:auto; } #app { min-width: 1366px; min-height: 700px; }
+.aty-select .aty-select-dropdown{
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.search_option_input_drw.aty-select-single .aty-select-selection .aty-select-selected-value{
+  text-overflow:clip !important;
+}
+.aty-scroll .aty-scroll-track-h .aty-scroll-bar, .aty-scroll .aty-scroll-track-v .aty-scroll-bar{
+  background-color: rgba(162,164,165,.5);
+}
+.aty-scroll .aty-scroll-track-h{
+  height:4px;
+}
+.aty-scroll .aty-scroll-track-v{
+  width:5px;
+}
+.aty-textarea[disabled], fieldset[disabled] .aty-textarea{
+  background-color: #f6f4f4;
+  color: #999;
+}
+.file.aty-text,
+.delFile .aty-text{
+  font-size:14px;
+  color: #0099ff;
+}
+.fd-files-list{
+  margin-top:-20px;
+}
+.fd-xgfj.aty-text{
+  font-weight:bold;
+  display:table-cell;
+  font-size:14px;
+  width:66px;
+}
+.fd-rjz-files{
+  display:table-cell;
+}
+.file.aty-text{
+  display:block;
+  height:34px;
+  line-height:34px;
+}
+.fd-top .search_option_butn1{
+  background-color: #00ccbb;
+  border-color: #00ccbb;
+}
+.fd-files-box{
+  display:table;
+  width:100%;
+}
+.aty-tree{
+  border:none;
+}
+.evaluateList .aty-tabs-nav-wrap .aty-tabs-nav .aty-tabs-tab{
+  width: 160px;
+}
+.crazy-table .aty-table th > .cell {
+  white-space: normal !important;
+  text-overflow: clip !important;
+  font-size: 12px;
+}
+.aty-table .cell{
+  padding:0 2px;
+}
+.fd-home-wrap .fd-gkhz-row .aty-scroll-1{
+  border:none;
+}
+.aty-table--border th{
+  border-right: 1px solid #dce0e8;
+}
+.fd-jl-modal  .aty-table .cell,
+.fd-jlgsb-modal  .aty-table .cell{
+  vertical-align:middle;
+  margin-top:0;
+  line-height:38px;
+}
+.fd-jlgsb-modal  .aty-table th .cell{
+  padding:0;
+}
+.aty-table table{
+  border-width:1px;
+  border-collapse:collapse;
+}
+.aty-table--group .aty-table__header,
+.aty-table table{
+  border-collapse:separate;
+}
+.fd-jlgsb-modal .aty-table th,
+.fd-jl-modal .aty-table th{
+  padding:0 !important;
+}
+.link{
+  padding:0 8px;
+  cursor:pointer;
+  color: #0099ff;
+}
+.aty-modal  .aty-pagination-options-sizer .aty-select{
+  position: relative;
+}
+.flgsb-opt .aty-input,
+.fd-hysj .aty-input{
+  width:216px;
+}
+.aty-table tr.xunjie {
+  background: #ffe4b5;
+}
+.fd-yhz-table .cell,
+.fd-yhz-table .aty-table--border td:first-child .cell{
+  padding:0;
+}
+.education-score .aty-select-dropdown-list{
+  width: 100%;
+}
+.table_butn{
+  margin:0 4px;
+  cursor: pointer;
+}
+.fd-ldf-import .aty-upload-list{
+  display: none;
+}
+.search_option_box #jsTreeContain.aty-tree>li.aty-tree-node>h3{
+  background:url(../../assets/images/jail.png) no-repeat 10px center;
+  padding-left:30px;
+}
+.aty-tree>.aty-tree-node>.aty-tree-node-content>.aty-tree-node>.aty-tree-node-hd{
+  padding-left:50px;
+}
+.search_option_box #jsTreeContain.aty-tree>.aty-tree-node>.aty-tree-node-hd>.aty-tree-node-trigger{
+   left:50px;
+}
+.search_option_box #jsTreeContain.aty-tree>.aty-tree-node>.aty-tree-node-hd>.aty-tree-node-trigger+.aty-tree-node-name{
+  padding-left:22px;
+}
+.search_option_box #jsTreeContain.aty-tree>li:hover.aty-tree-node>h3{
+  background:url(../../assets/images/jail-hover.png) no-repeat 10px center;
+}
+.search_option_box #jsTreeContain.aty-tree>li.aty-tree-node li span.aty-tree-node-name:before{
+  content:'';
+  display:inline-block;
+  width:18px;
+  height:18px;
+  vertical-align:middle;
+  background:url(../../assets/images/home.png) no-repeat  center;
+  position: relative;
+  top:-2px;
+  margin-right:5px;
+}
+.search_option_box #jsTreeContain.aty-tree>li.aty-tree-node li:hover span.aty-tree-node-name::before{
+  background:url(../../assets/images/home-active.png) no-repeat  center;
+}
+.es_table_input{
+  border: 1px solid #c3ccd4;
+}
+.aty-tree .aty-tree-node-name{
+  max-width:95%;
+}
+.fd-wc-table .aty-table--border th:first-child .cell{
+  padding-left:2px;
+}
+.visible .aty-tree .aty-tree-node-hd{
+  height:30px;
+}
+/*
+多表头时选择样式start
+*/
+.fd-py-table .aty-table th .aty-checkbox-indeterminate .aty-checkbox-inner,
+.fd-py-table .aty-table th .aty-checkbox-checked .aty-checkbox-inner{
+  width:15px;
+  height:15px;
+}
+.fd-py-table .aty-table th .aty-checkbox-checked .aty-checkbox-inner{
+  background: url(../../assets/images/checked.png) no-repeat center;
+}
+.fd-py-table .aty-table th .aty-checkbox-indeterminate .aty-checkbox-inner{
+  background: url(../../assets/images/indeterminate.png) no-repeat center;
+}
+.fd-py-table .aty-table th .aty-checkbox-checked .aty-checkbox-inner:after{
+  border:none;
+  background:none;
+}
+/*
+多表头时选择样式end
+*/
+.fd-jygz-table .aty-table tr td .cell,
+.fd-rjzhz-table.drw_table .aty-table tr td .cell{
+  margin: 3px 0 4px;
+}
+.fd-jygz-table .aty-table tr td.lh .cell{
+  margin-bottom:0;
+}
+.fd-jygz-table .aty-table tr td.lh .cell,
+.fd-rjzhz-table .aty-table tr td.lh .cell{
+  margin-top:7px;
+}
+.fd-jq .aty-select-dropdown{
+  top: 30px !important;
+}
+.aty-select-tree .aty-tree{
+  min-height: 120px;
+  max-height: 150px;
+}
+
+.aty-table th>.cell{
+  background-color: #EEF4F9;
+}
+.aty-input-icon-clear{
+  z-index:999;
+  background: #fff;
+  cursor:pointer;
+  top:2px;
+  right:2px;
+  width:30px;
+  height:28px;
+  line-height:28px;
+}
+.aty-input-box{
+  background:white;
+  border-radius:5px;
+}
